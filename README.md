@@ -12,9 +12,15 @@ This repository contains Jenkins pipeline script that automates the build, test,
 
 ## Setup
 
-1. Import the shared library named 'my-shared-library' into Jenkins.
+1. Import the shared library named 'my-shared-library' into Jenkins. You can find the shared library repository at [guddev99/jenkins_shared_library](https://github.com/guddev99/jenkins_shared_library).
 2. Create a new Jenkins pipeline job and configure it to use this pipeline script.
 3. Ensure that the necessary plugins for Maven, Docker, and SonarQube integration are installed in Jenkins.
+
+
+## Jenkins Shared Library
+
+The Jenkins pipeline script in this repository utilizes a shared library named 'my-shared-library'. The shared library is maintained separately at [guddev99/jenkins_shared_library](https://github.com/guddev99/jenkins_shared_library). Make sure to import this shared library into Jenkins as part of the setup process.
+
 
 ## Pipeline Overview
 
