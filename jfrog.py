@@ -23,11 +23,11 @@ def upload_jar_to_artifactory(jfrog_repo_url, username, password, jar_file_path)
 
 
 # main:
-vm_external_ip = "100.26.165.59"
+vm_external_ip = "54.91.124.159"
 jfrog_repo_url = f"http://{vm_external_ip}:8082/artifactory/jar-push-using-python"
 username = "admin"
 password = "Pass@123"
-pipeline_name = "assignmentPipeline"
+pipeline_name = "java-docker-build-ci"
 jar_file_path = f"/var/lib/jenkins/workspace/{pipeline_name}/target/kubernetes-configmap-reload-0.0.1-SNAPSHOT.jar"
 
 result = upload_jar_to_artifactory(jfrog_repo_url, username, password, jar_file_path)
